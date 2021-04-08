@@ -1,0 +1,106 @@
+* {
+  color: #fff;
+  background: hsl(0, 100%, 74%) url("images/bg-intro-desktop.png");
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.texto1,
+.texto2 {
+  max-width: 550px;
+  margin: 150px 100px 0 100px;
+}
+
+.texto1 h1 {
+  font-weight: bolder;
+  line-height: 65px;
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+.texto {
+  display: block;
+  width: 550px;
+  height: 40px;
+  margin: 40px auto 25px auto;
+  background: hsl(248, 32%, 49%);
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  padding-top: 18px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.16);
+}
+
+.form {
+  width: 550px;
+  height: 480px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.16);
+}
+
+.form form {
+  display: inline;
+}
+
+.form input {
+  display: block;
+  margin: 40px auto -20px auto;
+  width: 450px;
+  height: 52px;
+  border-radius: 5px;
+  border-width: thin;
+  border-color: hsl(246, 25%, 77%);
+  background: #fff;
+  padding-left: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.form .ativo {
+  background-color: hsl(246, 25%, 85%);
+}
+
+.form button {
+  display: block;
+  width: 485px;
+  height: 55px;
+  margin: 40px auto -20px auto;
+  background: hsl(154, 59%, 51%);
+  border-radius: 5px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form span {
+  display: inline-block;
+  height: 20px;
+  margin: 25px 0 0 90px;
+  text-align: center;
+  font-size: 11px;
+  background: #fff;
+  color: hsl(246, 25%, 77%);
+}
+
+.form .terms {
+  margin-left: 0;
+  color: hsl(0, 100%, 74%);
+}
+.autor {
+  margin: 100px auto 0 auto;
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
